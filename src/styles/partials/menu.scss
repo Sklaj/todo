@@ -1,0 +1,31 @@
+//Menu
+.menu-item {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    cursor: pointer;
+    font-size: 14px;
+
+    &:hover {
+        background-color: #292a48;
+    }
+
+    svg {
+        flex-shrink: 0;
+        flex-grow: 0;
+     }
+
+    .menu-item-title {
+        padding-left: 10px;
+        flex-shrink: 1;
+        flex-grow: 1;
+    }
+
+    .menu-item-count {
+        
+        flex-grow: 0;
+        color: #8a8995;
+    }
+}

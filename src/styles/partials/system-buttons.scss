@@ -1,0 +1,45 @@
+//system buttons
+.system-buttons{
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 15px;
+}
+
+.sys-btn {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+    cursor: pointer;
+
+    $red-color: #ff594f;
+    $yellow-color: #ffbc1b;
+    $green-color: #00cd46;
+
+    &:first-child {
+        margin-left: 0px;
+        background-color: $red-color;
+
+        &:hover {
+            background-color: darken($red-color, 5%);
+        }
+    }
+
+    &:nth-child(2) {
+        background-color: $yellow-color;
+
+        &:hover {
+            background-color: darken($yellow-color, 5%);
+        }
+    }
+
+    &:last-child {
+        background-color: $green-color;
+
+        &:hover {
+            background-color: darken($green-color, 5%);
+        }
+    }
+}
