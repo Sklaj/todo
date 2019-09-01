@@ -22,6 +22,11 @@
     font-size: 15px;
     display: flex;
     justify-content: space-between;
+    max-height: 40px;
+
+    p {
+        line-height: 18px;
+    }
 }
 
 .list-task-star {

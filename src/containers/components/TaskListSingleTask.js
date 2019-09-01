@@ -18,7 +18,9 @@ export const TaskListSingleTask = (props) => {
 
     return  (
         <li className="list-task">
-            {props.title}
+            <p>
+                {props.title}
+            </p>
 
             <div className={toggleStarState()} onClick={() => toggleClicked(clicked ? false : true)}>
                 <IconStar/>
