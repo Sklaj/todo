@@ -8,6 +8,6 @@ const SystemButtons = () => {
             <div className="sys-btn green"/>
         </div>
     );
-}
+};
 
 export default SystemButtons;

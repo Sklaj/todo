@@ -14,7 +14,7 @@ export const TaskListSingleTask = (props) => {
         } else {
             return "list-task-star active";
         }
-    }
+    };
 
     return  (
         <li className="list-task">
@@ -31,5 +31,3 @@ TaskListSingleTask.propTypes = {
     key: PropTypes.number,
     title: PropTypes.string
 };
-
-
