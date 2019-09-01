@@ -9,11 +9,11 @@ export const TaskListDayItem = (props) => {
 
     return (
         <li key={props.key}>
-            <span>
+            <p className="list-item-title">
                 {props.date}
-            </span>
+            </p>
 
-            <ul>
+            <ul className="tasks-list">
                 {props.taskList.map((task, indx) => {
                     return (
                         <TaskListSingleTask

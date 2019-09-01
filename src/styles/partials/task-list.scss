@@ -1,6 +1,40 @@
 .list-wrapper {
     background-color: #f6f6f6;
-    padding: 10px 15px;
+    padding: 0 15px;
     height: 500px;
     width: 500px;
+    overflow-y: scroll;
+}
+
+.list-item-title {
+    font-size: 12px;
+    color: #8a8995;
+    margin: 10px 0;
+}
+
+.list-task {
+    padding: 10px 12px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-task-star {
+    cursor: pointer;
+
+    path {
+        fill: #fff;
+        stroke: #e0e0e0;
+    }
+}
+
+.list-task-star.active {
+    path {
+        fill: #21233d;
+    }
 }
