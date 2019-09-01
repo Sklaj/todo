@@ -22,6 +22,7 @@
     font-size: 15px;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
     max-height: 40px;
 
     p {
@@ -30,8 +31,6 @@
 }
 
 .list-task-star {
-    cursor: pointer;
-
     path {
         fill: #fff;
         stroke: #e0e0e0;

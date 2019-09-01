@@ -13,6 +13,11 @@
         background-color: #292a48;
     }
 
+    &:active {
+        // lack of button active state in design PSD
+        background-color: #292a48;
+    }
+
     svg {
         flex-shrink: 0;
         flex-grow: 0;
@@ -25,7 +30,7 @@
     }
 
     .menu-item-count {
-        
+    
         flex-grow: 0;
         color: #8a8995;
     }

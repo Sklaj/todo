@@ -17,12 +17,12 @@ export const TaskListSingleTask = (props) => {
     };
 
     return  (
-        <li className="list-task">
+        <li className="list-task" onClick={() => toggleClicked(clicked ? false : true)}>
             <p>
                 {props.title}
             </p>
 
-            <div className={toggleStarState()} onClick={() => toggleClicked(clicked ? false : true)}>
+            <div className={toggleStarState()}>
                 <IconStar/>
             </div>
         </li>
