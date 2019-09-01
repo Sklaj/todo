@@ -2,6 +2,7 @@ import React from "react";
 
 import SystemButtons from "./components/SystemButtons";
 import Menu from "./components/Menu";
+import { TaskList } from "./components/TaskList";
 
 export class TodoList extends React.Component {
     render() {
@@ -17,8 +18,8 @@ export class TodoList extends React.Component {
                         </nav>
                     </aside>
 
-                    <section className="task-list-wrapper">
-                        tasks selection
+                    <section className="list-wrapper">
+                        <TaskList/>
                     </section>
                 </div>
             </main>
